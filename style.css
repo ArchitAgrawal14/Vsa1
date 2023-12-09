@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.Achievements{
+    font-size:larger ;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+/* yahan se subscription ka style chalu hai */
+.Subscription{
+  background-color:white;
+}
+
+
